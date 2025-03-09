@@ -1,9 +1,7 @@
 from django.db import models
-from group.models import Group  
-from django.contrib.auth.models import User
+from partymap.group import Group
 
 class Artist(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=100)
     type_of = models.CharField(max_length=60)
     since = models.TimeField(auto_now_add=True)

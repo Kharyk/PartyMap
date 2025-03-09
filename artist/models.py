@@ -13,5 +13,4 @@ class Artist(models.Model):
     def __str__(self):
         return self.name
 
-
-# Create your models here.
+# Remove the redundant import of Group

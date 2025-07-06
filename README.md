@@ -47,7 +47,7 @@ This schema can be used to create a database for an event platform.
 
 ### Status:
 
-Development
+on pause :)
 
 ![image](https://github.com/user-attachments/assets/d1d35416-586f-40a0-a163-b9b94442e20c)
 
